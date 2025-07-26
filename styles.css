@@ -24,3 +24,13 @@
   --fw-400: 400;
   --fw-600: 600;
 }
+
+/* ### UTILITY CLASSES ### */
+
+.hide {
+  display: none;
+}
+
+.text-accent {
+  color: var(--gray-900);
+}

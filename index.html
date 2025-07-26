@@ -16,9 +16,42 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    We're coming soon Hello fellow shoppers! We're currently building our new
-    fashion store. Add your email below to stay up-to-date with announcements
-    and our launch deals. Email Address
+    <main>
+      <div class="grid">
+        <div class="header">
+          <img src="./images/logo.svg" alt="Base Apparel logo." />
+        </div>
+        <div class="banner">
+          <picture>
+            <source
+              media="(min-width: 23.438em)"
+              srcset="./images/hero-desktop.jpg"
+            />
+            <img src="images/hero-mobile.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="main-content">
+          <h1>We're <span class="text-accent">coming soon</span></h1>
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form action="">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <button>
+              <img src="./images/icon-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>

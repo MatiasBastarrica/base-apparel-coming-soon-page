@@ -16,4 +16,11 @@
   /* # GRADIENT 2 # */
   --grad-2-clr-1: hsl(0, 80%, 86%);
   --grad-2-clr-2: hsl(0, 74%, 74%);
+
+  /* # TYPOGRAPHY # */
+
+  --ff-josefin-sans: "Josefin Sans", sans-serif;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
 }

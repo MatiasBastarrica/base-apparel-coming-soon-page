@@ -33,4 +33,22 @@
 
 .text-accent {
   color: var(--gray-900);
+  font-weight: var(--fw-600);
+}
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: var(--ff-josefin-sans);
+
+  color: var(--pink-400);
+}
+
+h1 {
+  font-weight: var(--fw-300);
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: var(--fw-400);
 }

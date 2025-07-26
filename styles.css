@@ -1,0 +1,19 @@
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  /* # PRIMARY # */
+  --pink-400: hsl(0, 36%, 70%);
+  --red-500: hsl(0, 93%, 68%);
+
+  /* # NAUTRAL # */
+  --gray-900: hsl(0, 6%, 24%);
+
+  /* # GRADIENTS: linear, 135deg # */
+  /* # GRADIENT 1 # */
+  --grad-1-clr-1: hsl(0, 0%, 100%);
+  --grad-1-clr-2: hsl(0, 100%, 98%);
+
+  /* # GRADIENT 2 # */
+  --grad-2-clr-1: hsl(0, 80%, 86%);
+  --grad-2-clr-2: hsl(0, 74%, 74%);
+}

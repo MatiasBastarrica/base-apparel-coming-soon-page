@@ -30,7 +30,7 @@
         <div class="banner">
           <picture>
             <source
-              media="(min-width: 23.438em)"
+              media="(min-width: 70.5em)"
               srcset="./images/hero-desktop.jpg"
             />
             <img src="images/hero-mobile.jpg" alt="" />
@@ -50,10 +50,20 @@
               id="email"
               placeholder="Email Address"
             />
+            <div class="error-icon-container">
+              <img src="./images/icon-error.svg" alt="" />
+            </div>
+
             <button>
               <img src="./images/icon-arrow.svg" alt="" />
             </button>
           </form>
+          <div class="empty-input-message error">
+            You forgot to enter an email.
+          </div>
+          <div class="invalid-input-message error">
+            Please enter a valid email.
+          </div>
         </div>
       </div>
     </main>

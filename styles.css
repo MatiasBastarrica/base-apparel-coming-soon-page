@@ -71,6 +71,7 @@ select {
 /* ### GENERAL STYLING ### */
 
 body {
+  min-height: 100vh;
   font-family: var(--ff-josefin-sans);
   background: linear-gradient(
     to bottom,
@@ -103,7 +104,7 @@ p {
     "header"
     "banner"
     "main-content";
-  height: 100vh;
+  min-height: 800px;
   grid-auto-rows: auto auto 1fr;
 }
 
@@ -156,4 +157,50 @@ form button {
   justify-self: end;
   box-shadow: 0px 8px 35px hsl(0, 78%, 84%);
   cursor: pointer;
+}
+
+/* ### MEDIA QUERIES ### */
+
+@media (min-width: 23.438em) {
+  .grid {
+    grid-template-areas:
+      "header banner"
+      "main-content banner";
+    grid-template-columns: 1fr 610px;
+    grid-auto-rows: auto 1fr;
+  }
+
+  .header,
+  .main-content {
+    width: 75%;
+    margin-inline: auto;
+  }
+
+  .header img {
+    padding-top: 2rem;
+    width: 150px;
+  }
+
+  .main-content {
+    text-align: start;
+  }
+
+  h1 {
+    margin-top: 7rem;
+    font-size: 3.8rem;
+    max-width: 10ch;
+  }
+
+  p {
+    max-width: 45ch;
+    font-size: 1.025rem;
+  }
+
+  form {
+    max-width: 45ch;
+  }
+
+  form button {
+    padding-inline: 2.5rem;
+  }
 }

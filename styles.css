@@ -143,6 +143,10 @@ input[type="email"] {
   background: inherit;
 }
 
+input[type="email"]:invalid {
+  border: 2px solid red;
+}
+
 form button {
   border: none;
   padding: 1rem 1.735rem;
@@ -167,12 +171,23 @@ form button:hover {
 /* ### MEDIA QUERIES ### */
 
 @media (min-width: 23.438em) {
+  body {
+    background: linear-gradient(
+      -45deg,
+      var(--grad-1-clr-1),
+      var(--grad-1-clr-2)
+    );
+  }
+
   .grid {
     grid-template-areas:
       "header banner"
       "main-content banner";
     grid-template-columns: 1fr 610px;
     grid-auto-rows: auto 1fr;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-position: top right 610px;
+    background-repeat: no-repeat;
   }
 
   .header,

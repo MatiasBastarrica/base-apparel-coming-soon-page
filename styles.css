@@ -75,6 +75,8 @@ select {
   margin-top: 0.4rem;
   font-size: 0.925rem;
   text-align: start;
+  max-width: 45ch;
+  margin-inline: auto;
 }
 
 /* ### GENERAL STYLING ### */
@@ -103,6 +105,8 @@ p {
   font-weight: var(--fw-400);
   font-size: clamp(0.925rem, 0.8898rem + 0.1502vw, 1.025rem);
   margin-top: 1rem;
+  max-width: 45ch;
+  margin-inline: auto;
 }
 
 /* ### BASE APPAREL ### */
@@ -144,6 +148,8 @@ form {
   margin-top: 2rem;
   display: grid;
   position: relative;
+  max-width: 45ch;
+  margin-inline: auto;
 }
 
 input[type="email"] {
@@ -233,14 +239,14 @@ form button:hover {
     margin-top: 7rem;
     max-width: 10ch;
   }
-
+  /* 
   p {
     max-width: 45ch;
-  }
+  } */
 
-  form {
+  /* form {
     max-width: 45ch;
-  }
+  } */
 
   form button {
     padding-inline: 2.5rem;
